@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!----------------------------------------------JP e IRIS----------------------------------- -->
+    <header>
+
+        <img class="logo" src="imgs/carver-logo-header.png" alt="Carver">
+
+        <nav>
+            <!-- <a href="#section1" >section 1</a> -->
+            <a href="#container_lancamentos">Lançamento</a> &#8739
+            <a href="#destaque">Em destaque </a> &#8739
+            <a href="#avaliacao">Avaliações</a> &#8739
+            <a href="#entrevistas">Entrevista & Making-of</a> &#8739
+            <a href="#container-part04-novidades">Novidades</a>
+        </nav>
+
+        <input type="text" placeholder="Pesquisar..." class="input-search">
+
+    </header>
+
+    <!-- LANÇAMENTOS -->
+    <section id="container_lancamentos" class="container_lancamentos">
+        <h1>Lançamentos</h1>
+        <section class="content-desc">
+            <div class="area-filme">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CCZN2pWRDbU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="area-descricao">
+                <div class="desc-sinopse">
+                    <h4>SwirlJam by Carver Skateboards</h4>
+                    <p>Carver has always been about surfing, and of capturing that joyous
+                        feeling of flow on a skateboard. The original since 1996, Carver has led the modern surfskate
+                        movement forward with its innovative truck systems, like the dual-axis C7 for a smooth and
+                        flowing ride, the reverse-kingpin CX for a quick and snappy ride, or the lower, lighter C5 for
+                        tricks and parks. And with a variety of surf-inspired shapes and concaves, along with our fast
+                        and grippy Roundhouse wheels, Carver delivers speed, power and flow so you can truly ‘Surf your
+                        Skate’.</p>
+                </div>
+
+                <div class="desc-avaliacao">
+                    <p><strong>Avaliação</strong></p>
+                    <div>
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-light-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-off"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="dots">
+            <span>
+                <img src="imgs/circle-solid-gray.svg" alt="Circulo Ativo" class="dot active-dot">
+            </span>
+            <span>
+                <img src="imgs/circle-solid-light-gray.svg" alt="Circulo Inativo" class="dot inactive-dot">
+            </span>
+            <span>
+                <img src="imgs/circle-solid-light-gray.svg" alt="Circulo Inativo" class="dot inactive-dot">
+            </span>
+            <span>
+                <img src="imgs/circle-solid-light-gray.svg" alt="Circulo Inativo" class="dot inactive-dot">
+            </span>
+        </div>
+    </section>
+
+    <!-- EM DESTAQUE -->
+    <section id="destaque" class="destaque">
+
+        <div id="destaque-header" class="destaque-header">
+            <h1>Em destaque</h1>
+            <select name="categorias" id="selecaoCategorias" class="selecaoCategorias">
+                <option value="">Classificação: TODOS</option>
+                <option value="Simulador de Surf">Simulador de Surf</option>
+                <option value="Mini Cruiser">Mini Cruiser</option>
+                <option value="Long Dancing">Long Dancing</option>
+                <option value="Street">Street</option>
+            </select>
+        </div>
+
+        <div class="destaque-content">
+            <article class="destaque-content-item">
+                <a href="#">
+                    <img src="imgs/surf.png" alt="Pequeno ícone que simboliza imagem ao centro">
+                </a>
+            </article>
+            <article class="destaque-content-item">
+                <a href="#">
+                    <img src="imgs/minicruiser.png" alt="Pequeno ícone que simboliza imagem ao centro">
+                </a>
+            </article>
+            <article class="destaque-content-item">
+                <a href="#">
+                    <img src="imgs/dancing.png" alt="Pequeno ícone que simboliza imagem ao centro">
+                </a>
+            </article>
+            <article class="destaque-content-item">
+                <a href="#">
+                    <img src="imgs/streetshape1.png" alt="Pequeno ícone que simboliza imagem ao centro">
+                </a>
+            </article>
+        </div>
+
+        <div class="destaque-footer">
+            <span class="css-button-icon"><svg width="27" height="27" viewBox="2 2 16 16" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10 5.5a.5.5 0 01.5.5v4a.5.5 0 01-.5.5H6a.5.5 0 010-1h3.5V6a.5.5 0 01.5-.5z"
+                        clip-rule="evenodd" />
+                    <path fill-rule="evenodd" d="M9.5 10a.5.5 0 01.5-.5h4a.5.5 0 010 1h-3.5V14a.5.5 0 01-1 0v-4z"
+                        clip-rule="evenodd" />
+                </svg></span>
+            <span class="css-button-text">Carregar mais</span>
+        </div>
+    </section>
+
+    <!-- ULTIMAS AVALIAÇÕES -->
+    <section id="avaliacao" class="avaliacao">
+        <h1>Ultimas Avaliações</h1>
+
+        <section class="area-ava">
+            <div id="card-ava">
+                <div id="img">
+                    <figure>
+                        <img src="imgs/perfil1.png" alt="video">
+                    </figure>
+                </div>
+                <div id="txt">
+                    <h4>Taylor Knox</h4>
+                    <p>Carvers is one of the best models! 💥</p>
+
+                    <div class="desc-avaliacao">
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-light-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-off"></span>
+                        <p><strong>04/10/2022</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="card-ava">
+                <div id="img">
+                    <figure>
+                        <img src="imgs/perfil1.png" alt="video">
+                    </figure>
+                </div>
+                <div id="txt">
+                    <h4>Zak Mark</h4>
+                    <p>j'adore ce marque de skate ! :p</p>
+
+                    <div class="desc-avaliacao">
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-light-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-off"></span>
+                        <p><strong>04/10/2022</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="card-ava">
+                <div id="img">
+                    <figure>
+                        <img src="imgs/perfil1.png" alt="video">
+                    </figure>
+                </div>
+                <div id="txt">
+                    <h4>Sasha Sofia</h4>
+                    <p>wow she is so rad!! i love this!!🤙</p>
+
+                    <div class="desc-avaliacao">
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-on"></span>
+                        <span><img src="imgs/star-solid-light-gray.svg" alt="Estrela preenchida"
+                                class="desc-avaliacao-star-off"></span>
+                        <p><strong>04/10/2022</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="ava_button">
+            <span class="css-button-icon"><svg width="27" height="27" viewBox="2 2 16 16" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10 5.5a.5.5 0 01.5.5v4a.5.5 0 01-.5.5H6a.5.5 0 010-1h3.5V6a.5.5 0 01.5-.5z"
+                        clip-rule="evenodd" />
+                    <path fill-rule="evenodd" d="M9.5 10a.5.5 0 01.5-.5h4a.5.5 0 010 1h-3.5V14a.5.5 0 01-1 0v-4z"
+                        clip-rule="evenodd" />
+                </svg></span>
+            <span class="css-button-text">Carregar mais</span>
+        </div>
+    </section>
+
+    <!-- -----------------------------JP------------------------------------- -->
+    <div id="entrevistas" class="entrevistas">
+        <div class="titulo-entrevista">Entrevistas e Making of</div>
+
+        <button class="botao-carregar"><i class="fa fa-plus" aria-hidden="true"></i> ㅤCarregar mais...</button>
+
+        <div class="entrevistas-videos">
+            <div class="item1">
+                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="video-entrevista"
+                    type="text/html" style="margin: 0px;"
+                    src="https://www.youtube.com/embed/FqSaS_2m4r0?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=http://youtubeembedcode.com">
+                </iframe>
+                <div class="descricao-item">
+                    <h3>Pushing for Inclusivity in Skateboarding</h3>
+                    <p> <b>Diretor: </b> VICE NEWS</p>
+                    <p> <b>Roteiro:</b> VICE NEWS ㅤㅤㅤ <b>Estreia em:</b> 2023</p>
+                </div>
+
+            </div>
+            <div class="item2">
+                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="video-entrevista"
+                    type="text/html"
+                    src="https://www.youtube.com/embed/6K8PgPEGuzg?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=http://youtubeembedcode.com">
+                </iframe>
+                <div class="descricao-item">
+                    <h3>Making Off | ONG Social Skate com Sandro Testinha
+                    </h3>
+                    <p> <b>Diretor: </b> Eu sou skatista</p>
+                    <p> <b>Roteiro:</b> Sandro testinhaㅤㅤㅤ <b>Estreia em:</b> 2023 </p>
+                </div>
+            </div>
+            <div class="item3">
+                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="video-entrevista"
+                    type="text/html"
+                    src="https://www.youtube.com/embed/aX96Cxc_x8o?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=http://youtubeembedcode.com">
+                </iframe>
+                <div class="descricao-item">
+                    <h3>ROOSEVELT COM CB GANG! Making Off</h3>
+                    <p> <b>Diretor: </b> LB Skate </p>
+                    <p> <b>Roteiro:</b> Rooselveltㅤㅤㅤ <b>Estreia em:</b> 2024 </p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="comunidade">
+        <div class="flex-items">
+            <blockquote class="instagram-media"
+                data-instgrm-permalink="https://www.instagram.com/p/Ci7blF3LFTg/?utm_source=ig_embed&amp;utm_campaign=loading"
+                data-instgrm-version="14"
+                style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                <div style="padding:16px;"> <a
+                        href="https://www.instagram.com/p/Ci7blF3LFTg/?utm_source=ig_embed&amp;utm_campaign=loading"
+                        style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+                        target="_blank">
+                        <div style=" display: flex; flex-direction: row; align-items: center;">
+                            <div
+                                style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+                            </div>
+                            <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                <div
+                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+                                </div>
+                                <div
+                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div style="padding: 19% 0;"></div>
+                        <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px"
+                                height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                xmlns:xlink="https://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                        <g>
+                                            <path
+                                                d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg></div>
+                        <div style="padding-top: 8px;">
+                            <div
+                                style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                                Ver essa foto no Instagram</div>
+                        </div>
+                        <div style="padding: 12.5% 0;"></div>
+                        <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                            <div>
+                                <div
+                                    style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+                                </div>
+                                <div
+                                    style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+                                </div>
+                                <div
+                                    style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+                                </div>
+                            </div>
+                            <div style="margin-left: 8px;">
+                                <div
+                                    style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+                                </div>
+                                <div
+                                    style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+                                </div>
+                            </div>
+                            <div style="margin-left: auto;">
+                                <div
+                                    style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+                                </div>
+                                <div
+                                    style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+                                </div>
+                                <div
+                                    style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                            <div
+                                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+                            </div>
+                            <div
+                                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+                            </div>
+                        </div>
+                    </a>
+                    <p
+                        style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                        <a href="https://www.instagram.com/p/Ci7blF3LFTg/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                            target="_blank">Uma publicação compartilhada por Federação Cearense Skate
+                            (@fesk_skateboard)</a>
+                    </p>
+                </div>
+            </blockquote>
+            <script async src="//www.instagram.com/embed.js"></script>
+        </div>
+        <div class="flex-items">
+            <blockquote class="instagram-media"
+                data-instgrm-permalink="https://www.instagram.com/p/Cjaqe2Urt6l/?utm_source=ig_embed&amp;utm_campaign=loading"
+                data-instgrm-version="14"
+                style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                <div style="padding:16px;"> <a
+                        href="https://www.instagram.com/p/Cjaqe2Urt6l/?utm_source=ig_embed&amp;utm_campaign=loading"
+                        style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+                        target="_blank">
+                        <div style=" display: flex; flex-direction: row; align-items: center;">
+                            <div
+                                style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+                            </div>
+                            <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                <div
+                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+                                </div>
+                                <div
+                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div style="padding: 19% 0;"></div>
+                        <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px"
+                                height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                xmlns:xlink="https://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                        <g>
+                                            <path
+                                                d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg></div>
+                        <div style="padding-top: 8px;">
+                            <div
+                                style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                                Ver essa foto no Instagram</div>
+                        </div>
+                        <div style="padding: 12.5% 0;"></div>
+                        <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                            <div>
+                                <div
+                                    style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+                                </div>
+                                <div
+                                    style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+                                </div>
+                                <div
+                                    style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+                                </div>
+                            </div>
+                            <div style="margin-left: 8px;">
+                                <div
+                                    style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+                                </div>
+                                <div
+                                    style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+                                </div>
+                            </div>
+                            <div style="margin-left: auto;">
+                                <div
+                                    style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+                                </div>
+                                <div
+                                    style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+                                </div>
+                                <div
+                                    style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                            <div
+                                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+                            </div>
+                            <div
+                                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+                            </div>
+                        </div>
+                    </a>
+                    <p
+                        style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                        <a href="https://www.instagram.com/p/Cjaqe2Urt6l/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                            target="_blank">Uma publicação compartilhada por Confederação Brasileira Skate
+                            (@cbskskate)</a>
+                    </p>
+                </div>
+            </blockquote>
+            <script async src="//www.instagram.com/embed.js"></script>
+        </div>
+        <div class="flex-items">
+            <blockquote class="instagram-media"
+                data-instgrm-permalink="https://www.instagram.com/p/CjbPodLPEGM/?utm_source=ig_embed&amp;utm_campaign=loading"
+                data-instgrm-version="14"
+                style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                <div style="padding:16px;"> <a
+                        href="https://www.instagram.com/p/CjbPodLPEGM/?utm_source=ig_embed&amp;utm_campaign=loading"
+                        style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+                        target="_blank">
+                        <div style=" display: flex; flex-direction: row; align-items: center;">
+                            <div
+                                style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+                            </div>
+                            <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                <div
+                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+                                </div>
+                                <div
+                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div style="padding: 19% 0;"></div>
+                        <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px"
+                                height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                xmlns:xlink="https://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                        <g>
+                                            <path
+                                                d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg></div>
+                        <div style="padding-top: 8px;">
+                            <div
+                                style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                                Ver essa foto no Instagram</div>
+                        </div>
+                        <div style="padding: 12.5% 0;"></div>
+                        <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                            <div>
+                                <div
+                                    style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+                                </div>
+                                <div
+                                    style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+                                </div>
+                                <div
+                                    style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+                                </div>
+                            </div>
+                            <div style="margin-left: 8px;">
+                                <div
+                                    style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+                                </div>
+                                <div
+                                    style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+                                </div>
+                            </div>
+                            <div style="margin-left: auto;">
+                                <div
+                                    style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+                                </div>
+                                <div
+                                    style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+                                </div>
+                                <div
+                                    style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                            <div
+                                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+                            </div>
+                            <div
+                                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+                            </div>
+                        </div>
+                    </a>
+                    <p
+                        style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                        <a href="https://www.instagram.com/p/CjbPodLPEGM/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                            target="_blank">Uma publicação compartilhada por STU (@skatetotalurbe)</a>
+                    </p>
+                </div>
+            </blockquote>
+            <script async src="//www.instagram.com/embed.js"></script>
+        </div>
+        <div class="flex-items">
+
+        </div>
+    </div>
+
+    <div class="sketchfab-embed-wrapper"> <iframe title="Skateboard [ Globe: DOWN IN FLAMES ]" frameborder="0"
+            allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
+            allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport
+            execution-while-not-rendered web-share
+            src="https://sketchfab.com/models/8dd79c785a4142e4a6e077567569e9c8/embed?autostart=1"
+            style="width: 100%; height: 50vh;"> </iframe>
+    </div>
+
+
+
+    <!-- --------------------------------------------------JONAS e ISAC----------------------------------- -->
+
+    <div class="container-css-grid" id="container-part03">
+
+        <h1>Sugestão da Semana</h1>
+
+        <div id="container-part03-video">
+            <iframe width="1520" height="553" src="https://www.youtube.com/embed/yn-TfAzobDI"
+                title="Raw Run || Race Against the Storm" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div id="container-part03-desc">
+            <h3 id="titulo">Sobre - Downhill Skate</h3>
+            <p>
+                Modalidade onde o atleta desce uma ladeira fazendo manobras em alta velocidade. Como muitos devem saber,
+                um dos inventores do downhill-slide foi Clifford Coleman, um californiano de Berkeley que hoje tem 54
+                anos e continua praticando e muito o downhill-slide. Ele e seus amigos de sessão começaram a criar a
+                arte de deslizar (Slide) por volta de 1965, mas somente em 1975 é que se encontraram num evento e
+                puderam compartilhar suas experiências vividas nestes 10 anos e exibiram os primeiros slides em pé
+                (Stand-up) de que se tem notícia.
+            </p>
+            <h3 id="editorial">Editorial</h3>
+            <div id="container-part03-desc-editor" class="container-css-grid">
+                <img src="imgs/people.png" alt="pessoa">
+                <h4>Redação: Iris Costa </h4>
+                <img src="imgs/people.png" alt="pessoa">
+                <h4>Pesquisa: Isac Andrade </h4>
+                <img src="imgs/people.png" alt="pessoa">
+                <h4>Gerente Geral: Jonas Fortes </h4>
+            </div>
+            <div id="container-part03-desc-social" class="container-css-grid">
+                <h5>Redes Sociais</h5>
+                <svg id="facebook" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg>
+                <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                </svg>
+
+                <svg id="twitter" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                </svg>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-flex" id="container-part04">
+
+        <div id="container-part04-novidades">
+            <h1>Novidades</h1>
+
+            <div class="container-flex" id="container-part04-novidades-1">
+
+                <img src="imgs/Rayssa.jpg" alt="skatista">
+                <div class="materia">
+                    <h4>Rayssa Leal vence terceira etapa da SLS 2022; brasileiros também se destacam</h4>
+                    <p>Rayssa Leal faz uma temporada perfeita no Street League (SLS) de 2022. Pela terceira vez em três
+                        etapas neste ano, a brasileira conquistou o primeiro lugar na disputa. Dessa vez, o título veio
+                        em Las Vegas, nos Estados Unidos. Pâmela Rosa, Gabriela Mazetto, Kelvin Hoefler e Felipe Gustavo
+                        também conseguiram bons resultados.</p>
+
+                    <div id="container-parte04-novidades-tags">
+                        <button class="button" id="button-parte04">Skate</button>
+                        <button class="button" id="button-parte04">Esporte</button>
+                        <button class="button" id="button-parte04">Novidades</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="solid">
+
+            <div class="container-flex" id="container-part04-novidades-2">
+
+                <img src="imgs/OnTour.jpg" alt="skatista">
+                <div class="materia">
+                    <h4>STU On Tour conhece campeões de 2022 com disputas na Praça Duó</h4>
+                    <p>Um campeonato de skate que começou há quase cinco meses, no vasto mundo da internet, chegou ao
+                        fim nesta quarta-feira (05/10), mas de forma presencial. Foi o encerramento da segunda edição do
+                        STU On Tour, que conheceu todos seus campeões na Praça Duó, na Barra da Tijuca. </p>
+
+                    <div id="container-parte04-novidades-tags">
+                        <button class="button" id="button-parte04">Skate</button>
+                        <button class="button" id="button-parte04">Esporte</button>
+                        <button class="button" id="button-parte04">Novidades</button>
+                    </div>
+                </div>
+
+                <div id="container-parte04-novidades-tags">
+
+                </div>
+            </div>
+
+            <hr class="solid">
+
+            <div class="container-flex" id="container-part04-novidades-3">
+
+                <img src="imgs/Erica.jpg" alt="skatista">
+                <div class="materia">
+                    <h4>Erica Leguizamon e Dieguinho Takahashi se consagram na temporada 2022 da LAB</h4>
+                    <p>A Liga Amadora de Bowl foi finalizada no último fim de semana, no Rio de Janeiro, e definiu os
+                        dois vencedores da temporada 2022. No feminino, quem brilhou foi Erica Leguizamon, enquanto
+                        Dieguinho Takahashi ficou no topo do ranking geral masculino. </p>
+
+                    <div id="container-parte04-novidades-tags">
+                        <button class="button" id="button-parte04">Skate</button>
+                        <button class="button" id="button-parte04">Esporte</button>
+                        <button class="button" id="button-parte04">Novidades</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="container-part04-propagandas">
+            <img src="imgs/anúncio.jpg" alt="">
+        </div>
+    </div>
+
+    <div id="container-part05">
+        <h1>Lista de Favoritos</h1>
+
+        <a href="#abrirModal-fav-1">
+            <div class="container-flex" id="container-part05-favoritos-1">
+                <img src="imgs/youtube.png" alt="youtube img">
+                <p>Why You Can’t Ollie! | Foot Positions, Foot Moments</p>
+            </div>
+        </a>
+
+        <a href="#abrirModal-fav-2">
+            <div class="container-flex" id="container-part05-favoritos-2">
+                <img src="imgs/youtube.png" alt="youtube img">
+                <p>12 MANOBRAS PRA APRENDER DEPOIS DO OLLIE</p>
+            </div>
+        </a>
+
+        <a href="#abrirModal-fav-3">
+            <div class="container-flex" id="container-part05-favoritos-3">
+                <img src="imgs/youtube.png" alt="youtube img">
+                <p>RAYSSA LEAL TEM SANGUE DE CAMPEÃ | LIGA MUNDIAL DE SKATE STREET | sportv</p>
+            </div>
+        </a>
+
+        <a href="#abrirModal-fav-4">
+            <div class="container-flex" id="container-part05-favoritos-4">
+                <img src="imgs/youtube.png" alt="youtube img">
+                <p>x games 2012 Paul Rodriguez ouro na final do Skate Street</p>
+            </div>
+        </a>
+
+        <a href="#abrirModal-fav-5">
+            <div class="container-flex" id="container-part05-favoritos-5">
+                <img src="imgs/youtube.png" alt="youtube img">
+                <p>Skateboard Big Air: FULL BROADCAST | X Games Minneapolis 2017</p>
+            </div>
+        </a>
+
+        <div id="abrirModal-fav-1" class="modal">
+            <a href="#fechar" title="Fechar" class="fechar">
+                <button class="button-modal">Fechar</button>
+            </a>
+            <iframe width="820" height="500" src="https://www.youtube.com/embed/FMD5g4iKvsw"
+                title="Why You Can’t Ollie! | Foot Positions, Foot Moments" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; 
+            picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div id="abrirModal-fav-2" class="modal">
+            <a href="#fechar" title="Fechar" class="fechar">
+                <button class="button-modal">Fechar</button>
+            </a>
+            <iframe width="820" height="500" src="https://www.youtube.com/embed/75mhF7QxXrc"
+                title="12 MANOBRAS PRA APRENDER DEPOIS DO OLLIE | SKATE MONTADO SKTBR" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div id="abrirModal-fav-3" class="modal">
+            <a href="#fechar" title="Fechar" class="fechar">
+                <button class="button-modal">Fechar</button>
+            </a>
+            <iframe width="820" height="500" src="https://www.youtube.com/embed/idynFPj5-UU"
+                title="RAYSSA LEAL TEM SANGUE DE CAMPEÃ | LIGA MUNDIAL DE SKATE STREET | sportv" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div id="abrirModal-fav-4" class="modal">
+            <a href="#fechar" title="Fechar" class="fechar">
+                <button class="button-modal">Fechar</button>
+            </a>
+            <iframe width="820" height="500" src="https://www.youtube.com/embed/PBuxV9-MJHg"
+                title="x games 2012 Paul Rodriguez ouro na final do Skate Street" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div id="abrirModal-fav-5" class="modal">
+            <a href="#fechar" title="Fechar" class="fechar">
+                <button class="button-modal">Fechar</button>
+            </a>
+            <iframe width="820" height="500" src="https://www.youtube.com/embed/aOE-jKnS3A8"
+                title="Skateboard Big Air: FULL BROADCAST | X Games Minneapolis 2017" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <h1 id="comunidade-titulo">Comunidade de Vídeos</h1>
+    <div class="container-flex" id="container-part06">
+
+        <div id="container-part06-1">
+
+            <h4 id="comentario_titulo">Comentários</h4><br>
+
+            <!-- <div id="container-parte06-1-1">
+                <div class="container-flex">
+                    <div id="container-parte06-1-1-1">
+                        <img src="imgs/perfil1.png" alt="">
+                    </div>
+                    <div id="container-parte06-1-1-2">
+                        <h4>Liu Zhigang</h4>
+                        <p>Adorei os vídeos!!</p>
+                        <p>17:52, Inglaterra</p>
+                    </div>
+                </div>
+            </div> -->
+
+            <div id="container-parte06-1-1">
+                <div class="container-flex">
+                    <div id="container-parte06-1-1-1">
+                        <img src="imgs/perfil1.png" alt="">
+                    </div>
+                    <div id="container-parte06-1-1-2">
+                        <h4>Castro</h4>
+                        <p>Adorei os vídeos!!</p>
+                        <p>17:52, Inglaterra</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-parte06-1-1">
+                <div class="container-flex">
+                    <div id="container-parte06-1-1-1">
+                        <img src="imgs/perfil1.png" alt="">
+                    </div>
+                    <div id="container-parte06-1-1-2">
+                        <h4>Farmsworth</h4>
+                        <p>Adorei os vídeos!!</p>
+                        <p>17:52, Inglaterra</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-parte06-1-1">
+                <div class="container-flex">
+                    <div id="container-parte06-1-1-1">
+                        <img src="imgs/perfil1.png" alt="">
+                    </div>
+                    <div id="container-parte06-1-1-2">
+                        <h4>Gabriel, o bahiano</h4>
+                        <p>Adorei os vídeos!!</p>
+                        <p>17:52, Inglaterra</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="container-parte06-1-1">
+                <div class="container-flex">
+                    <div id="container-parte06-1-1-1">
+                        <img src="imgs/perfil1.png" alt="">
+                    </div>
+                    <div id="container-parte06-1-1-2">
+                        <h4>Isadora Pina</h4>
+                        <p>Sinto saudades do tfm</p>
+                        <p>17:52, Inglaterra</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="container-part06-2">
+            <select name="categorias" id="categorias" class="">
+                <option value="">Tema: TODOS</option>
+                <option value="aventura">Melhores manobras</option>
+                <option value="romance">Competições</option>
+                <option value="comedia">Top 10 Skatistas</option>
+                <option value="comedia">Drip</option>
+            </select>
+            <div class="container-flex" id="container-part06-2-1">
+                <div id="container-parte06-2-1-video">
+                    <iframe src="https://www.youtube.com/embed/CCZN2pWRDbU" frameborder="0"></iframe>
+                </div>
+                <div id="container-parte06-2-1-desc">
+                    <h4>Descrição</h4>
+                    <p><strong>Sinopse:</strong> Carver has always been about surfing, and of capturing that joyous
+                        feeling of flow on a skateboard. The original since 1996, Carver has led the modern surfskate
+                        movement forward with its innovative truck systems, like the dual-axis C7 for a smooth and
+                        flowing ride, the revers
+                        Skate’.</p>
+                    <p>2.453.134 visualizações</p>
+                </div>
+            </div>
+            <hr class="solid">
+            <div class="container-flex" id="container-part06-2-1">
+                <div id="container-parte06-2-1-video">
+                    <iframe src="https://www.youtube.com/embed/CCZN2pWRDbU" frameborder="0"></iframe>
+                </div>
+                <div id="container-parte06-2-1-desc">
+                    <h4>Descrição</h4>
+                    <p><strong>Sinopse:</strong> Carver has always been about surfing, and of capturing that joyous
+                        feeling of flow on a skateboard. The original since 1996, Carver has led the modern surfskate
+                        movement forward with its innovative truck systems,like the dual-axis C7 for a smooth and
+                        flowing ride, the revers
+                        Skate’.</p>
+                    <p>2.453.134 visualizações</p>
+                </div>
+            </div>
+            <hr class="solid">
+            <div class="container-flex" id="container-part06-2-1">
+                <div id="container-parte06-2-1-video">
+                    <iframe src="https://www.youtube.com/embed/CCZN2pWRDbU" frameborder="0"></iframe>
+                </div>
+                <div id="container-parte06-2-1-desc">
+                    <h4>Descrição</h4>
+                    <p><strong>Sinopse:</strong> Carver has always been about surfing, and of capturing that joyous
+                        feeling of flow on a skateboard. The original since 1996, Carver has led the modern surfskate
+                        movement forward with its innovative truck systems, like the dual-axis C7 for a smooth and
+                        flowing ride, the revers
+                        Skate’.</p>
+                    <p>2.453.134 visualizações</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="container-part06-3">
+            <h4 id="comentario_form">Deixe seu comentário!</h4><br>
+
+            <form id="comentarios_form" action="">
+                <label for="fname">Nome</label>
+                <input type="text" class="parte06-texto" id="fname" name="firstname" placeholder="Seu nome">
+
+                <label for="lname">Comentário</label>
+                <input type="text" class="parte06-texto" id="lname" name="lastname"
+                    placeholder="Diga o que você está pensando">
+
+                <label for="country">De onde você é</label>
+                <select id="country" name="country">
+                    <option value="brasil">Brasil</option>
+                    <option value="canada">Estados Unidos</option>
+                    <option value="usa">Inglaterra</option>
+                    <option value="usa">França</option>
+                    <option value="usa">Outro</option>
+                </select>
+
+                <input type="submit" class="submit-parte06" value="Enviar">
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="container-flex" id="container-part07">
+        <h1>Cadastro de Vídeos</h1>
+        <form id="cadastro_videos" action="">
+
+            <input type="text" id="nome" name="firstname" placeholder="Nome Completo">
+
+            <input type="email" id="email" name="firstname" placeholder="E-mail">
+
+            <input type="url" id="linkvideo" name="firstname" placeholder="link do Vídeo">
+
+            <input type="text" id="descricao" name="firstname" placeholder="Descreva Este Vídeo">
+
+            <input type="submit" value="Enviar">
+        </form>
+
+
+    </div>
+</body>
+
+
+
+
+
+<!--------------------------IRIS------------------------------------->
+
+<footer class="footer">
+
+    <img class="logo-rodape" src="imgs/carver-logo-header.png" alt="Carver">
+
+    <h5>Copyright 2022 - Disciplina Tec Web</h5>
+
+</footer>
+
+</html>
